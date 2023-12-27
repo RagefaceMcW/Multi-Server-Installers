@@ -10,8 +10,8 @@ set programname=SteamCMD Server Downloader/Updater
 ::    Replace after =   ::
 :: With your Steam info ::
 ::======================::
-set username=STEAMUSERNAME
-set password=PASSWORD
+set username=rageface_mcwikked
+set password=Harmony1116
 
 ::=======================::
 ::   SteamCMD folder     ::
@@ -60,15 +60,16 @@ ECHO   # A - Arma 3 Dedicated Server                                #
 ECHO   # B - Rust Dedicated Server                                  #
 ECHO   # C - ARK: Survival Evolved Dedicated Server                 #
 ECHO   # D - Brink Dedicated Server                                 #
-:: ECHO   # E - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # F - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # G - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # I - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # J - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # K - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # L - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # M - EXTRA OPTION Dedicated Server                          #
-:: ECHO   # N - EXTRA OPTION Dedicated Server                          #
+ECHO   # E - Chivalry: Deadliest Warrior Dedicated server           #
+ECHO   # F - Chivalry: Medieval Warfare Dedicated Server            #
+ECHO   # G - Starbound Dedicated server                             #
+ECHO   # I - Starvoid Dedicated Server                              #
+ECHO   # J - The Haunted: Hells Reach Dedicated Server              #
+ECHO   # K - The Ship Dedicated Server                              #
+ECHO   # L - Zombie Grinder Dedicated Server                        #
+:: ECHO   # M - Ground Branch Dedicated Server                         #
+:: ECHO   # N - Ready or Not Dedicated Server                          #
+:: ECHO   # O - Ready or Not Dedicated Server                          #
 :: ECHO   # P - EXTRA OPTION Dedicated Server                          #
 :: ECHO   # R - EXTRA OPTION Dedicated Server                          #
 :: ECHO   # S - EXTRA OPTION Dedicated Server                          #
@@ -103,15 +104,15 @@ IF "%A%"=="A" set app=233780
 IF "%A%"=="B" set app=258550
 IF "%A%"=="C" set app=376030
 IF "%A%"=="D" set app=72780
-:: IF "%A%"=="E" set app=CHANGEME
-:: IF "%A%"=="F" set app=CHANGEME
-:: IF "%A%"=="G" set app=CHANGEME
-:: IF "%A%"=="I" set app=CHANGEME
-:: IF "%A%"=="J" set app=CHANGEME
-:: IF "%A%"=="K" set app=CHANGEME
-:: IF "%A%"=="L" set app=CHANGEME
-:: IF "%A%"=="M" set app=CHANGEME
-:: IF "%A%"=="N" set app=CHANGEME
+IF "%A%"=="E" set app=258680
+IF "%A%"=="F" set app=220070
+IF "%A%"=="G" set app=211820
+IF "%A%"=="I" set app=210370
+IF "%A%"=="J" set app=43210
+IF "%A%"=="K" set app=2403
+IF "%A%"=="L" set app=374980
+:: IF "%A%"=="M" set app=476400
+:: IF "%A%"=="N" set app=950290
 :: IF "%A%"=="O" set app=CHANGEME
 :: IF "%A%"=="P" set app=CHANGEME
 :: IF "%A%"=="R" set app=CHANGEME
