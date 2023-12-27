@@ -10,8 +10,8 @@ set programname=SteamCMD Server Downloader/Updater
 ::    Replace after =   ::
 :: With your Steam info ::
 ::======================::
-set username=rageface_mcwikked
-set password=Harmony1116
+set username=
+set password=
 
 ::=======================::
 ::   SteamCMD folder     ::
