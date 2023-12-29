@@ -55,7 +55,7 @@ ECHO   # 6 - Insurgency Dedicated Server                            #
 ECHO   # 7 - Left 4 Dead Dedicated Server                           #
 ECHO   # 8 - Left 4 Dead 2 Dedicated Server                         #
 ECHO   # 9 - Conan Exiles Dedicated Server                          #
-:: ECHO   # 0 - Space Engineers Dedicated Server                       #
+ECHO   # 0 - Ground Branch Dedicated Server                         #
 :: ECHO   # A - Arma 3 Dedicated Server                                #
 :: ECHO   # B - Rust Dedicated Server                                  #
 :: ECHO   # C - EXTRA OPTION Dedicated Server                          #
@@ -99,7 +99,7 @@ IF "%A%"=="6" set app=237410
 IF "%A%"=="7" set app=222840
 IF "%A%"=="8" set app=222860
 IF "%A%"=="9" set app=443030
-:: IF "%A%"=="0" set app=298740
+IF "%A%"=="0" set app=476400
 :: IF "%A%"=="A" set app=233780
 :: IF "%A%"=="B" set app=258550
 :: IF "%A%"=="C" set app=CHANGEME
